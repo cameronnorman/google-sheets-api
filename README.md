@@ -17,9 +17,10 @@ git clone ...
 vim docker-compose.yml
 ```
 Update SHEET_ID to the token of the google sheet
+
 ```bash
 docker-compose build
-docker-compose run api init
+docker-compose run api sheetManagerAPI init
 docker-compose up
 
 curl http://localhost:8080/:table_name
