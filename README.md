@@ -32,7 +32,11 @@ Build coming in future...
 ## Possible routes
 
 GET http://localhost:8080/:table_name - Index action
+
 GET http://localhost:8080/:table_name/:id - Show action
+
 POST http://localhost:8080/:table_name - Create action
+
 PUT http://localhost:8080/:table_name/:id - Update action
+
 DELETE http://localhost:8080/:table_name/:id - Delete action
